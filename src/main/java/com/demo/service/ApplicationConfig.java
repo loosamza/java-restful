@@ -17,6 +17,10 @@ public class ApplicationConfig extends Application {
 
   private void addRestResourceClasses(Set<Class<?>> resources) {
     resources.add(UserResource.class);
+    resources.add(CustomerResource.class);
+    resources.add(CustomersResource.class);
+    resources.add(AuthenicationResource.class);
+    resources.add(AuthFilter.class);
   }
 
 
